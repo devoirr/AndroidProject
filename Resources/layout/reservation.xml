@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d4259"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:text="About"
+        android:id="@+id/aboutBtn"
+        android:backgroundTint="#6493c4"
+        android:textSize="45px"/>
+	<LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter the name"
+            android:id="@+id/nameEditText"
+            android:layout_marginBottom="50px"
+            android:textColorHint="#8b9eb3"
+            android:textColor="#8b9eb3"
+            android:textSize="75px"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter the amount of People"
+            android:id="@+id/amountEditText"
+            android:layout_marginBottom="80px"
+            android:textColor="#8b9eb3"
+            android:textColorHint="#8b9eb3"
+            android:textSize="75px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Choose time"
+            android:id="@+id/timeBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="65px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Choose date"
+            android:id="@+id/dateBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="65px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="#8b9eb3"
+            android:id="@+id/dateView"
+            android:textSize="50px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="#8b9eb3"
+            android:id="@+id/timeView"
+            android:textSize="50px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save"
+            android:id="@+id/saveBtn"
+            android:backgroundTint="#6493c4"
+            android:layout_marginTop="50px"
+            android:textSize="55px"/>
+    </LinearLayout>
+
+</LinearLayout>

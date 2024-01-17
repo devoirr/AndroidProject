@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#2d4259"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="75px"
+        android:textColor="#8b9eb3"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:hint="Enter your email.."
+        android:textColorHint="#8b9eb3"
+        android:textSize="50px"
+        android:layout_marginTop="100px"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/username"
+        android:hint="Enter your username.."
+        android:textColorHint="#8b9eb3"
+        android:textSize="50px"
+        android:layout_marginTop="10px"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:hint="Enter your password.."
+        android:textColorHint="#8b9eb3"
+        android:textSize="50px"
+        android:layout_marginTop="150px"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/passwordConfirm"
+        android:hint="Confirm your password.."
+        android:textColorHint="#8b9eb3"
+        android:textSize="50px"
+        android:layout_marginTop="10px"
+        android:inputType="text" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/loginBtn"
+            android:backgroundTint="#6493c4"
+            android:layout_marginTop="50px"
+            android:text="FINISH Registration"
+            android:textSize="50px"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/backBtn"
+            android:backgroundTint="#6493c4"
+            android:layout_marginTop="10px"
+            android:text="Go back"
+            android:textSize="50px"/>
+
+</LinearLayout>

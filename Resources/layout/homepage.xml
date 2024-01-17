@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#2d4259"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/welcomeTextView"
+        android:textSize="50px"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Flags"
+            android:id="@+id/flagsBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="75px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Reservation"
+            android:id="@+id/reservationBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="75px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Camera"
+            android:id="@+id/cameraBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="75px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="trivia"
+            android:id="@+id/triviaBtn"
+            android:backgroundTint="#6493c4"
+            android:textSize="75px"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c98"
+            android:layout_gravity="center"
+            android:id="@+id/flagImg"
+            android:contentDescription="description" />
+    </LinearLayout>
+</LinearLayout>
+
